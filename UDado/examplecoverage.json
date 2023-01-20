@@ -1,0 +1,56 @@
+{
+    "coveragemode": true,
+    "attributes": [
+        {
+            "id": "battery",
+            "objective": -1
+        },
+        {
+            "id": "cpu",
+            "objective": -1
+        }
+    ],
+    "devices": [
+        {
+            "id": "self",
+            "attributes": {
+                "coverage": ["self"],
+                "cpu": 150,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborA",
+            "attributes": {
+                "coverage": ["self", "neighborA"],
+                "cpu": 10,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborB",
+            "attributes": {
+                "coverage": ["neighborA", "neighborB", "neighborC"],
+                "cpu": 40,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborC",
+            "attributes": {
+                "coverage": ["self", "neighborA", "neighborB", "neighborD"],
+                "cpu": 42,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborD",
+            "attributes": {
+                "coverage": ["neighborB"],
+                "cpu": 67,
+                "battery": 100
+            }
+        }
+    ],
+    "delegatees": 5
+}

@@ -1,0 +1,43 @@
+{
+    "attributes":[
+        {
+            "id": "latency",
+            "objective": 1
+        },
+        {
+            "id": "cpu",
+            "objective": -1
+        },
+        {
+            "id": "battery",
+            "gt": 50
+        }
+    ],
+    "devices": [
+        {
+            "id": "self",
+            "attributes": {
+                "latency": 0,
+                "cpu": 2000,
+                "battery": 30
+            }
+        },
+        {
+            "id": "neighborA",
+            "attributes": {
+                "latency": 50,
+                "cpu": 1000,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborB",
+            "attributes": {
+                "latency": 150,
+                "cpu": 0,
+                "battery": 100
+            }
+        }
+    ],
+    "delegatees": 1
+}

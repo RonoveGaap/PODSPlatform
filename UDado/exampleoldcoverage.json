@@ -1,0 +1,59 @@
+{
+    "attributes": [
+        {
+            "id": "battery",
+            "gt": 50
+        },
+        {
+            "id": "coverage",
+            "objective": -1
+        },
+        {
+            "id": "cpu",
+            "objective": -1
+        }
+    ],
+    "devices": [
+        {
+            "id": "self",
+            "attributes": {
+                "coverage": 1,
+                "cpu": 1,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborA",
+            "attributes": {
+                "coverage": 5,
+                "cpu": 1,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborB",
+            "attributes": {
+                "coverage": 3,
+                "cpu": 4,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborC",
+            "attributes": {
+                "coverage": 4,
+                "cpu": 4,
+                "battery": 100
+            }
+        },
+        {
+            "id": "neighborD",
+            "attributes": {
+                "coverage": 1,
+                "cpu": 6,
+                "battery": 100
+            }
+        }
+    ],
+    "delegatees": 2
+}

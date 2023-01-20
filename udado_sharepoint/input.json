@@ -1,0 +1,1 @@
+{"coveragemode": true, "attributes": [{"id": "battery", "objective": -1}, {"id": "cpu", "objective": -1}, {"id": "ram", "objective": -1}], "delegatees": 1, "devices": [{"id": "EVA-01", "attributes": {"ram": 0.7149391174316406, "battery": 100.0, "cpu": 11211.308, "coverage": ["EVA-01"]}}]}
